@@ -1,0 +1,16 @@
+ACME CLOUD HOSTING LLC
+1200 Market St, San Francisco, CA 94103
+
+INVOICE #AC-20931
+Date: November 3, 2026
+Bill to: Northwind Bakery Co.
+
+Description                         Qty    Unit Price      Amount
+Managed VPS (4 vCPU / 8 GB)           2       $89.00     $178.00
+Daily backups add-on                  2       $12.50      $25.00
+Premium support (monthly)             1      $149.00     $149.00
+
+                                         Subtotal:      $352.00
+                                         Sales tax 8.5%: $29.92
+                                         TOTAL DUE:     $381.92
+Payment terms: Net 15

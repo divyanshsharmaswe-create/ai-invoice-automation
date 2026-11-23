@@ -1,0 +1,11 @@
+QuickPrint Supplies Pvt Ltd
+Invoice No: QP/26/1187        Date: 12-11-2026
+
+Item                       Qty   Rate (INR)   Amount (INR)
+A4 copier paper (box)       10      1,450.00      14,500.00
+Toner cartridge TN-760       4      3,200.00      12,800.00
+Delivery                     1        500.00         500.00
+
+Sub Total                                         28,300.00
+GST @18%                                           5,094.00
+Grand Total                                       33,394.00

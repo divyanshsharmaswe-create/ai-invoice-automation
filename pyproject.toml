@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "invoice-automation"
+version = "0.1.0"
+description = "Demo: extract invoices with Claude, store them in Google Sheets/CSV, alert on Slack."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "Divyansh Sharma" }]
+dependencies = [
+  "anthropic>=0.75",
+  "pydantic>=2.7",
+  "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+sheets = ["gspread>=6.0"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+invoice-automation = "invoice_automation.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

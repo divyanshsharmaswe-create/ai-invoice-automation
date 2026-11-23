@@ -1,0 +1,14 @@
+{
+  "vendor": "QuickPrint Supplies Pvt Ltd",
+  "invoice_number": "QP/26/1187",
+  "invoice_date": "2026-11-12",
+  "currency": "INR",
+  "line_items": [
+    {"description": "A4 copier paper (box)", "quantity": 10, "unit_price": 1450.0, "amount": 14500.0},
+    {"description": "Toner cartridge TN-760", "quantity": 4, "unit_price": 3200.0, "amount": 12800.0},
+    {"description": "Delivery", "quantity": 1, "unit_price": 500.0, "amount": 500.0}
+  ],
+  "subtotal": 28300.0,
+  "tax": 5094.0,
+  "total": 33394.0
+}

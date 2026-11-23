@@ -1,0 +1,13 @@
+{
+  "vendor": "BrightPath Consulting GmbH",
+  "invoice_number": "BP-0457",
+  "invoice_date": "2026-10-31",
+  "currency": "EUR",
+  "line_items": [
+    {"description": "Data platform architecture workshop", "quantity": 3, "unit_price": 2400.0, "amount": 7200.0},
+    {"description": "Implementation support", "quantity": 16, "unit_price": 150.0, "amount": 2400.0}
+  ],
+  "subtotal": 9600.0,
+  "tax": 1824.0,
+  "total": 11424.0
+}

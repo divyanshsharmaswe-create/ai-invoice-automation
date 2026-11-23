@@ -10,6 +10,8 @@ WORKDIR /app
 COPY --from=build /wheels /wheels
 RUN pip install --no-cache-dir /wheels/*.whl && rm -rf /wheels
 COPY samples ./samples
+# Writable output dir for the non-root user
+RUN mkdir -p /app/out && chown app:app /app/out
 USER app
 ENTRYPOINT ["invoice-automation"]
 CMD ["--mock"]
